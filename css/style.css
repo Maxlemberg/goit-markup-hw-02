@@ -145,6 +145,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .footer-link {
@@ -153,6 +154,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /*Portpholio*/
@@ -175,12 +177,11 @@
 }
 
 /*item-menu*/
-.item-menu {
+.item-menu .a {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
 
 .paragraph {
@@ -189,5 +190,8 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
+}
+
+.link {
   text-decoration: none;
 }
