@@ -47,6 +47,10 @@
   color: var(--accent-color);
 }
 
+.navi.curent {
+  color: var(--accent-color);
+}
+
 .navi-address > a {
   color: var(--primery-text-color);
   text-decoration: none;
