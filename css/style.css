@@ -1,0 +1,193 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+/*body*/
+.page {
+  background-color: #e5e5e5;
+  color: var(--primery-text-color);
+  font-family: roboto, sans-serif;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/*header*/
+.logo {
+  color: var(--title-text-color);
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: var(--accent-color);
+  font-family: raleway, sans-serif;
+}
+
+.navi {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navi:hover,
+.navi:focus {
+  color: var(--accent-color);
+}
+
+.navi-address > a {
+  color: var(--primery-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font: inherit;
+  font-style: normal;
+}
+
+.navi-address > a:hover,
+.navi-address > a:focus {
+  color: var(--accent-color);
+}
+
+/*main*/
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero > button {
+  color: #ffffff;
+  background: #2196f3;
+  border-color: #2196f3;
+  font: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*priority*/
+.priority-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.priority-list > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*what-we-do*/
+.what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*comand*/
+.comand {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.comand-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*footer*/
+.footer-address {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*Portpholio*/
+/*buttons*/
+.button-name {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: roboto, sans-serif;
+}
+
+.button-menu button:hover,
+.button-menu button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/*item-menu*/
+.item-menu {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  text-decoration: none;
+}
