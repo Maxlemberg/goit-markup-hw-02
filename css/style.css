@@ -2,13 +2,13 @@
   --primery-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --primery-font: roboto, sans-serif;
 }
 
-/*body*/
+/*================body=======================*/
 .page {
-  background-color: #ffffff;
   color: var(--primery-text-color);
-  font-family: roboto, sans-serif;
+  font-family: var(--primery-font);
 }
 
 .title {
@@ -17,20 +17,21 @@
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
-/*header*/
-.logo {
+/*======================   header   ==================================*/
+.logo-link {
   color: var(--accent-color);
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: 700;
   text-decoration: none;
-  font-family: raleway, sans-serif;
+  font-family: var(--primery-font);
 }
 
-.logo-studio {
+.logo-link-studio {
   color: var(--title-text-color);
 }
 
@@ -51,23 +52,22 @@
   color: var(--accent-color);
 }
 
-.navi-address > a {
+.link-navi-address {
   color: var(--primery-text-color);
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  font: inherit;
   font-style: normal;
 }
 
-.navi-address > a:hover,
-.navi-address > a:focus {
+.link-navi-address:hover,
+.link-navi-address:focus {
   color: var(--accent-color);
 }
 
-/*main*/
+/*===========================   main   =============================*/
+
 .hero-title {
   color: #ffffff;
   font-weight: 900;
@@ -76,14 +76,17 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.hero {
   background-color: #2f303a;
 }
 
-.hero > button {
+.button {
   color: #ffffff;
   background: #2196f3;
   border-color: #2196f3;
-  font: inherit;
+  font: var(--primery-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -93,7 +96,7 @@
   letter-spacing: 0.06em;
 }
 
-/*priority*/
+/*==================================   priority   ==============================*/
 .priority-list {
   font-weight: 700;
   font-size: 14px;
@@ -102,15 +105,15 @@
   text-transform: uppercase;
 }
 
-.priority-list > p {
+.article {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-/*what-we-do*/
-.what-we-do {
+/*===========================   what-we-do   ==========================*/
+.what-we-do .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -118,14 +121,17 @@
   letter-spacing: 0.03em;
 }
 
-/*comand*/
+/*=============================   comand   ===========================*/
 .comand {
+  background-color: #f5f4fa;
+}
+
+.comand .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
 }
 
 .comand-list {
@@ -144,7 +150,7 @@
   letter-spacing: 0.03em;
 }
 
-/*footer*/
+/*================================   footer   ============================*/
 .footer {
   background-color: #2f303a;
 }
@@ -171,8 +177,9 @@
   text-decoration: none;
 }
 
-/*Portfolio*/
-/*buttons*/
+/*=================================      !!!   Portfolio  !!!   =================================*/
+
+/*=============================   buttons   ============================*/
 .button-name {
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -181,17 +188,17 @@
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  font-family: roboto, sans-serif;
+  font-family: var(--primery-font);
 }
 
-.button-menu button:hover,
-.button-menu button:focus {
+.button-name:hover,
+.button-name:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
 
-/*item-menu*/
-.item-menu .a {
+/*======================   item-menu   =======================*/
+.work {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
